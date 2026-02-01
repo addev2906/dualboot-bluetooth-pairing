@@ -76,6 +76,9 @@ case $pm in
         echo -e "${CYAN}Installing chntpw...${RESET}"
         sudo apt install chntpw -y
         ;;
+    *)
+        echo Install chntpw with your package manager and continue...
+        ;;
 esac
 
 # --- Trap to unmount on exit or error ---
