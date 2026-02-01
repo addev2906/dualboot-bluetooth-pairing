@@ -17,25 +17,36 @@ Supported package managers for automatic installation of `chntpw`:
 ---
 
 ## Usage
+1.Pair the device in Linux first.
 
-1. Make the script executable:
+2.Boot into Windows and re-pair the device.
+
+3.Boot back into your Linux distribution
+
+4.Clone this repository using
+
+```bash
+git clone https://github.com/addev2906/dualboot-bluetooth-pairing
+```
+
+5. Make the script executable:
 
 ```bash
 chmod +x btpair.sh
 ```
 
-2. Run the script with root privileges:
+6. Run the script with root privileges:
 
 ```bash
 sudo ./btpair.sh
 ```
 
-3. Follow the prompts:
+7. Follow the prompts:
 
 - Select a trusted Bluetooth device from the list.
 - Enter the Windows system partition (e.g., `nvme0n1p3`).
 
-4. The script will automatically:
+8. The script will automatically:
 
 - Mount the Windows partition.
 - Extract the link key for the selected Bluetooth device.
