@@ -27,7 +27,7 @@ chmod +x btpair.sh
 2. Run the script with root privileges:
 
 ```bash
-sudo ./dualboot-bluetooth-pair.sh
+sudo ./btpair.sh
 ```
 
 3. Follow the prompts:
