@@ -13,6 +13,7 @@ This Bash script automates the process of syncing Bluetooth link keys between Wi
 Supported package managers for automatic installation of `chntpw`:
 - `apt`
 - `pacman`
+- `dnf`
 
 ---
 
